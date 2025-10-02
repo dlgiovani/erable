@@ -1,0 +1,11 @@
+# node modules are only needed to publish to github pages
+# gh-pages is a copy of the files needed to run the site
+# the package files again are just to run gh-pages
+gh-pages/
+gh-pages/*
+
+node_modules
+node_modules/*
+
+package.json
+package-lock.json
